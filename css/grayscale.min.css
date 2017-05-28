@@ -10,6 +10,16 @@ html {
     width: 100%
 }
 
+@font-face {
+    font-family: "Monoton-Regular";
+    src: url("../fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Prisma";
+    src: url("../fonts/Prisma.ttf");
+}
+
 .navbar-custom,
 body {
     background-color: #000
@@ -65,7 +75,7 @@ p {
 }
 
 a {
-    color: #42DCA3;
+    color: #CC7475;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
@@ -113,7 +123,7 @@ a:hover {
 }
 
 .navbar-custom a {
-    color: #fff
+    color: #FFF
 }
 
 .navbar-custom .nav li a {
@@ -173,9 +183,91 @@ a:hover {
     vertical-align: middle
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px
+/*-----------------Yellow Neon Header----------------*/
+
+#neonHeader {
+    font-family: "Monoton-Regular";
+    font-size: 125px;
+     color: #fff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+  text-transform: none !important;
+  font-weight: 100;
 }
+
+#andFont {
+    font-family: "Prisma";
+    margin-right: 10px;
+}
+
+#neonHeader:hover {
+    color: rgba(255,255,131, 0.5);
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+neonHeader:hover {
+  color: #ffffff;
+}
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #FAFA92, 0 0 20px #FAFA92, 0 0 30px #FAFA92, 0 0 40px #FFFF9D, 0 0 70px #FFFF9D, 0 0 80px #FFFF9D, 0 0 100px #FFFF9D, 0 0 150px #FFFF9D;
+  }
+  to {
+    text-shadow: 0 0 5px #FAFA92, 0 0 10px #FAFA92, 0 0 15px #FAFA92, 0 0 20px #FFFF9D, 0 0 35px #FFFF9D, 0 0 40px #FFFF9D, 0 0 50px #FFFF9D, 0 0 75px #FFFF9D;
+  }
+}
+
+
+/*--------------------------------------------*/
+
+/*-----------------Blue-ish/White Neon Header----------------
+
+#neonHeader {
+    font-family: "Monoton-Regular";
+    font-size: 125px;
+     color: #fff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+  text-transform: none !important;
+  font-weight: 100;
+}
+
+#andFont {
+    font-family: "Prisma";
+    margin-right: 10px;
+}
+
+#neonHeader:hover {
+    color: rgba(223,242,255, 0.5);
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+neonHeader:hover {
+  color: #ffffff;
+}
+
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #DFF2FF, 0 0 20px #DFF2FF, 0 0 30px #DFF2FF, 0 0 40px #DFF2FF, 0 0 70px #DFF2FF, 0 0 80px #DFF2FF, 0 0 100px #DFF2FF, 0 0 150px #DFF2FF;
+  }
+  to {
+    text-shadow: 0 0 5px #DFF2FF, 0 0 10px #DFF2FF, 0 0 15px #DFF2FF, 0 0 20px #DFF2FF, 0 0 35px #DFF2FF, 0 0 40px #DFF2FF, 0 0 50px #DFF2FF, 0 0 75px #DFF2FF;
+  }
+}
+
+
+--------------------------------------------*/
+
+
 
 .intro .intro-body .intro-text {
     font-size: 18px
@@ -194,15 +286,16 @@ a:hover {
     }
 }
 
+
 .btn-circle {
     width: 70px;
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #FFF;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #FFF;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -301,17 +394,17 @@ a:hover {
 }
 
 .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
+    border: 1px solid #FFF3F3;
+    color: #FFF3F3;
     background-color: transparent
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    border: 1px solid #42DCA3;
+    border: 1px solid #B2B29A;
     outline: 0;
     color: #000;
-    background-color: #42DCA3
+    background-color: #B2B29A;
 }
 
 ul.banner-social-buttons {
@@ -362,4 +455,19 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
+
+/*----------------------Media Queries----------------------*/
+
+@media only screen and (max-width : 992px) {
+    #neonHeader { 
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    #neonHeader { 
+        font-size: 70px;
+    }
+}
+
 
