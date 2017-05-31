@@ -182,6 +182,9 @@ a:hover {
     display: table-cell;
     vertical-align: middle
 }
+#logo {
+    width: 20%;
+}
 
 /*-----------------Yellow Neon Header----------------*/
 
