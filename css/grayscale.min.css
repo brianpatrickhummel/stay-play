@@ -182,21 +182,23 @@ a:hover {
     display: table-cell;
     vertical-align: middle
 }
+
 #logo {
     width: 20%;
 }
 
-/*-----------------Yellow Neon Header----------------*/
 
+/*-----------------Yellow Neon Header----------------*/
+/*
 #neonHeader {
     font-family: "Monoton-Regular";
     font-size: 125px;
-     color: #fff;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-  text-transform: none !important;
-  font-weight: 100;
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    text-transform: none !important;
+    font-weight: 100;
 }
 
 #andFont {
@@ -205,49 +207,44 @@ a:hover {
 }
 
 #neonHeader:hover {
-    color: rgba(255,255,131, 0.5);
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
+    color: rgba(255, 255, 131, 0.5);
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
 }
 
 #neonHeader:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
-
 
 @-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #FAFA92, 0 0 20px #FAFA92, 0 0 30px #FAFA92, 0 0 40px #FFFF9D, 0 0 70px #FFFF9D, 0 0 80px #FFFF9D, 0 0 100px #FFFF9D, 0 0 150px #FFFF9D;
-  }
-  to {
-    text-shadow: 0 0 5px #FAFA92, 0 0 10px #FAFA92, 0 0 15px #FAFA92, 0 0 20px #FFFF9D, 0 0 35px #FFFF9D, 0 0 40px #FFFF9D, 0 0 50px #FFFF9D, 0 0 75px #FFFF9D;
-  }
-}
+    from {
+        text-shadow: 0 0 10px #FAFA92, 0 0 20px #FAFA92, 0 0 30px #FAFA92, 0 0 40px #FFFF9D, 0 0 70px #FFFF9D, 0 0 80px #FFFF9D, 0 0 100px #FFFF9D, 0 0 150px #FFFF9D;
+    }
+    to {
+        text-shadow: 0 0 5px #FAFA92, 0 0 10px #FAFA92, 0 0 15px #FAFA92, 0 0 20px #FFFF9D, 0 0 35px #FFFF9D, 0 0 40px #FFFF9D, 0 0 50px #FFFF9D, 0 0 75px #FFFF9D;
+    }
+}*/
+
 
 /*vvvv Classes for the returned JSON vvvv*/
-.resultsImage {
 
-}
+.resultsImage {}
 
-.resultsDescription {
+.resultsDescription {}
 
-}
+.resultsName {}
 
-.resultsName{
+.resultsStartTime {}
 
-}
-
-.resultsStartTime {
-
-}
 
 /*^^^^ Classes for the returned JSON ^^^^*/
 
 
 /*-----------------Blue-ish/White Neon Header----------------*/
 
-/*#neonHeader {
+
+#neonHeader {
     font-family: "Monoton-Regular";
     font-size: 125px;
      color: #fff;
@@ -282,14 +279,9 @@ a:hover {
   to {
     text-shadow: 0 0 5px #DFF2FF, 0 0 10px #DFF2FF, 0 0 15px #DFF2FF, 0 0 20px #DFF2FF, 0 0 35px #DFF2FF, 0 0 40px #DFF2FF, 0 0 50px #DFF2FF, 0 0 75px #DFF2FF;
   }
-}*/
+}
 
-
---------------------------------------------
-
-
-
-.intro .intro-body .intro-text {
+-------------------------------------------- .intro .intro-body .intro-text {
     font-size: 18px
 }
 
@@ -305,7 +297,6 @@ a:hover {
         font-size: 26px
     }
 }
-
 
 .btn-circle {
     width: 70px;
@@ -476,18 +467,17 @@ img::-moz-selection {
     background: 0 0
 }
 
+
 /*----------------------Media Queries----------------------*/
 
-@media only screen and (max-width : 992px) {
-    #neonHeader { 
+@media only screen and (max-width: 992px) {
+    #neonHeader {
         font-size: 100px;
     }
 }
 
-@media only screen and (max-width : 768px) {
-    #neonHeader { 
+@media only screen and (max-width: 768px) {
+    #neonHeader {
         font-size: 70px;
     }
 }
-
-
