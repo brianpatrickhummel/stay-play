@@ -40,6 +40,8 @@
                     <img src="Stay&Playlogo.png" id="logo">
                 </a>
             </div>
+
+           
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
@@ -59,8 +61,6 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    
-                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -88,36 +88,37 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <form>
-                <div class="form-group">
-                <label for="input-group date">Date</label>
-                <div class="input-group date" data-provide="datepicker">
-                        <input type="text" class="form-control" id="exampleStartDate">
-                        <div class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                      </div>
-                </div>
-            </div>
+                    <div class="form-group">
+                        <label for="input-group date">Date</label>
+                        <div class="input-group date" data-provide="datepicker">
+                            <input type="text" class="form-control" id="exampleStartDate">
+                            <div class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div>
+                    </div>
+                    <div>
                         <label for="exampleCity">City</label>
                         <input type="text" class="form-control" id="exampleCity" aria-describedby="cityHelp" placeholder="ie: Austin">
                         <label for="exampleState">State</label>
                         <input type="text" class="form-control" id="exampleState" aria-describedby="stateHelp" placeholder="ie: TX">
+
+
+
                         <label for="exampleZipCode">Zip Code</label>
                         <input type="text" class="form-control" id="exampleZipCode" aria-describedby="zipHelp" placeholder="ie: 78701">
                     </div>
-                     <button type="submit" class="btn btn-primary" id="userInputBtn">Submit</button>
-                   <!--  <div class="form-group">
+                    <button type="submit" class="btn btn-primary" id="userInputBtn">Submit</button>
+                    <!--  <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                  -->
-                    
-                  
                 </form>
             </div>
         </div>
@@ -157,43 +158,27 @@
             </div>
         </div>
     </section>
-    
     <!-- Footer -->
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2016</p>
         </div>
     </footer>
-    <!-- <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script> -->
-<!--     <script>
-        var config = {
-    apiKey: "AIzaSyClTOHIFhCAp2VtAga6fgZgs_Tdn0X7ue4",
-    authDomain: "staynplay-db2.firebaseapp.com",
-    databaseURL: "https://staynplay-db2.firebaseio.com",
-    projectId: "staynplay-db2",
-    storageBucket: "staynplay-db2.appspot.com",
-    messagingSenderId: "61188880759"
-};
-firebase.initializeApp(config);
-    </script> -->
-    <!-- jQuery -->
+   
     <script src="vendor/jquery/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Noe's API KEY -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzSiwbjXsQeqGpN4zEw4ipujJZfKUo5aw&libraries=places"></script>
     <!-- Plugin JavaScript -->
     <script src="js/bootstrap-datepicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+   <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-
-    
-<!-- 
-    <script src="js/DatePicker.js"></script> -->
+ 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
-
-
 </body>
 
 </html>
