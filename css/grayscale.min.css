@@ -225,8 +225,25 @@ a:hover {
   }
 }
 
+/*vvvv Classes for the returned JSON vvvv*/
+.resultsImage {
 
-/*--------------------------------------------*/
+}
+
+.resultsDescription {
+
+}
+
+.resultsName{
+
+}
+
+.resultsStartTime {
+
+}
+
+/*^^^^ Classes for the returned JSON ^^^^*/
+
 
 /*-----------------Blue-ish/White Neon Header----------------*/
 
