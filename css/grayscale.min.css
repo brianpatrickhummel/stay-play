@@ -688,7 +688,12 @@ img::-moz-selection {
 
 @media only screen and (max-width: 768px) {
     #neonHeader {
-        font-size: 70px;
+        font-size: 50px;
 
+    }
+
+    #meet {
+        font-size: 30px;
+        margin: 0 15px;
     }
 }
