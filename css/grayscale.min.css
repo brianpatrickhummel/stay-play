@@ -22,7 +22,7 @@ html {
 
 .navbar-custom,
 body {
-    background-color: #000
+    background-color: #000;
 }
 
 .intro,
@@ -252,6 +252,11 @@ a:hover {
 
 /*^^^^ Classes for the returned JSON ^^^^*/
 
+#map {
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+}
 
 /*-----------------Blue-ish/White Neon Header----------------*/
 
