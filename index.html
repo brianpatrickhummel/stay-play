@@ -11,6 +11,10 @@
     <link rel="icon" type="image" href="Stay&Playtitlelogo.png" />
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/c38831e163.js"></script>
+    <!--  animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -37,11 +41,9 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <!-- <span class="light">Stay &</span> Play -->
-                    <img src="Stay&Playlogo.png" id="logo">
+                   <img src="Stay&Playlogo.png" id="logo"> 
                 </a>
             </div>
-
-           
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
@@ -72,10 +74,10 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-10 col-md-offset-1 animated zoomIn">
                         <h1 id="neonHeader">Stay<span id="andFont">&</span>Play</h1>
                         <p class="intro-text">This site is designed to help you find an event and hotel in your desired location</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#about" class="animated pulse infinite btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -135,16 +137,61 @@
         </div>
     </section>
     <!-- Map Section -->
-    <div id="map"></div>
+    <!-- <div id="map">MAP SECTION????</div> -->
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
+            <div class=class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2 id="meet">Meet Our Development Team</h2>
+                <div class="row bioImages">
+                    <section class="main">
+                        <ul class="ch-grid">
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info">
+                                        <h3>Adam Kirschner</h3>
+                                        <p><a href="https://github.com/akirschner89" target="_blank" ><i class="fa fa-github fa-5x"></i></a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <h3>Brian Hummel</h3>
+                                        <p><a href="https://github.com/brianpatrickhummel" target="_blank" ><i class="fa fa-github fa-5x"></i></a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-3">
+                                    <div class="ch-info">
+                                        <h3>Jake Lopez</h3>
+                                        <p><a href="https://github.com/JakeLopez" target="_blank" ><i class="fa fa-github fa-5x"></i></a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-4">
+                                    <div class="ch-info">
+                                        <h3>Noe Tellez</h3>
+                                        <p><a href="https://github.com/noetlz10" target="_blank" ><i class="fa fa-github fa-5x"></i></a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-5">
+                                    <div class="ch-info">
+                                        <h3>Stephen Bell</h3>
+                                        <p><a href="https://github.com/stephenjbell1" target="_blank" ><i class="fa fa-github fa-5x"></i></a></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>          
+                    </section>
+                </div>    <!-- bio images row -->
+                <!-- <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p> -->
+                <!-- <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
@@ -154,17 +201,18 @@
                     <li>
                         <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </section>
+    
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
+        <div class="copyright container text-center">
             <p>Copyright &copy; Your Website 2016</p>
         </div>
     </footer>
-   
+    <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -174,8 +222,9 @@
     <script src="js/bootstrap-datepicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-   <!--  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+  <!--   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
     <!-- Theme JavaScript -->
+
     <script src="js/grayscale.min.js"></script>
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
