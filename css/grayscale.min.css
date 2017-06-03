@@ -7,8 +7,13 @@
 body,
 html {
     height: 100%;
-    width: 100%
+    width: 100%;
 }
+
+
+
+/*body * { border: 1px solid red; }
+ add a border to all other elements on the page */
 
 @font-face {
     font-family: "Monoton-Regular";
@@ -673,7 +678,9 @@ img::-moz-selection {
     background: 0 0
 }
 
-
+#contact {
+    overflow:hidden;
+}
 
 /*---------------Copyright-----------------------*/
 
