@@ -351,28 +351,28 @@ a:hover {
 }
 
 .ch-img-1 { 
-    background-image: url('../img/tiger.jpg');
+    background-image: url('../img/bioImages/adam.jpg');
     
     background-size: cover;    /*allows image to resize with the resizing of it's containing element*/
 }
 
 .ch-img-2 { 
-    background-image: url('../img/tiger.jpg');
+    background-image: url('../img/bioImages/brian.jpg');
     background-size: cover; 
 }
 
 .ch-img-3 { 
-    background-image: url('../img/tiger.jpg');
+    background-image: url('../img/bioImages/jake.jpg');
     background-size: cover; 
 }
 
 .ch-img-4 { 
-    background-image: url('../img/tiger.jpg');
+    background-image: url('../img/bioImages/noe.jpg');
     background-size: cover; 
 }
 
 .ch-img-5 { 
-    background-image: url('../img/tiger.jpg');
+    background-image: url('../img/bioImages/stephen.jpg');
     background-size: cover; 
 }
 
