@@ -261,11 +261,7 @@ a:hover {
 
 /*^^^^ Classes for the returned JSON ^^^^*/
 
-#map {
-    height: 100%;
-    margin: 5px;
-    padding: 5px;
-}
+
 
 
 /*-----------------Blue-ish/White Neon Header----------------*/
@@ -507,6 +503,12 @@ a:hover {
     .intro .intro-body .intro-text {
         font-size: 26px
     }
+}
+
+#map {
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 
 .btn-circle {
