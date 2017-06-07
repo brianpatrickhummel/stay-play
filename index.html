@@ -60,7 +60,7 @@
                         <a class="page-scroll" href="#download">Events</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#map">Hotels</a>
+                        <a class="page-scroll" href="#hotels">Hotels</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -95,7 +95,7 @@
                 <h2>SEARCH</h2>
                     <div class="form-group">
                         <label for="input-group date">Start Date</label>
-                        <div class="input-group date" data-provide="datepicker">
+                        <div class="input-group date" id="datePicker1" data-provide="datepicker">
                             <input type="text" class="form-control" id="exampleStartDate">
                             <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="form-group">
                         <label for="input-group date">End Date</label>
-                        <div class="input-group date" data-provide="datepicker">
+                        <div class="input-group date" id="datePicker2" data-provide="datepicker">
                             <input type="text" class="form-control" id="exampleEndDate">
                             <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
@@ -121,14 +121,14 @@
                     </div>
                      <div class="form-group">
                         <label for="zipInput">Zip Code</label>
-                        <input type="text" class="form-control" id="zipInput" aria-describedby="zipHelp" placeholder="ie: 78701">
+                        <input type="number" class="form-control" id="zipInput" aria-describedby="zipHelp" placeholder="ie: 78701">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email Address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
-                    <button type="submit" class="btn btn-default" id="userInputBtn">Submit</button>
+                    <a class="page-scroll" href="#download"><button type="submit" class="btn btn-default" id="userInputBtn">Submit</button></a>
                     <!--  <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -150,7 +150,7 @@
         </div>
     </section>
     <!-- Map Section -->
-    <div class="container">
+    <div class="container content-section" id="hotels">
         <div id="map">MAP</div>
     </div>
 
@@ -159,7 +159,7 @@
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
         <div class="row">
-            <div class=class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h2 id="meet">Meet Our Development Team</h2>
                 <div class="row bioImages">
                     <section class="main">
