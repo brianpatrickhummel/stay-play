@@ -10,6 +10,25 @@
         .jssora05l.jssora05lds      (disabled)
         .jssora05r.jssora05rds      (disabled)
         */
+        #eventappend-container {
+            width: 100%!important;
+        }
+        
+        .eventEntry {
+            position: relative;
+            height: 500px;
+        }
+
+        .eventText {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.7);
+        }
+
+        .eventText p {
+            margin-bottom: 5px;
+        }
 
         #eventAppend {
             position:relative;
@@ -17,7 +36,7 @@
             top:0px;
             left:0px;
             width:960px;
-            height:725px;
+            height:500px;
             overflow:hidden;
             visibility:hidden;
             background-color:#24262e;
@@ -25,10 +44,9 @@
         #eventAppend-slides {
             cursor:default;
             position:relative;
-            top:175px;
             left:240px;
             width:720px;
-            height:725px;
+            height:500px;
             overflow:hidden;
         }
         .jssora05l, .jssora05r {
