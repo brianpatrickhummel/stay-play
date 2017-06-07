@@ -10,7 +10,9 @@ html {
     width: 100%;
 }
 
-
+#card{
+    height:725px!important;
+}
 
 /*body * { border: 1px solid red; }
  add a border to all other elements on the page */
