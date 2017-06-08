@@ -10,6 +10,8 @@ html {
     width: 100%;
 }
 
+
+
 #card{
     height:725px!important;
     background-color:black;
@@ -543,7 +545,7 @@ i:hover {
 }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 0px;
 }
 
 #download {
@@ -552,7 +554,6 @@ i:hover {
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) center center no-repeat #000;
     -webkit-background-size: cover;
