@@ -76,6 +76,7 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 75px;
+    text-align: center;
     
 }
 
@@ -336,7 +337,7 @@ a:hover {
 }
 
 .ch-img-4 { 
-    background-image: url('../img/bioImages/noe.jpg');
+    background-image: url('../img/bioImages/Noepic.jpg');
     background-size: cover; 
 }
 
