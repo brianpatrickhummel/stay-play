@@ -23,6 +23,8 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+    <link href="css/sliderstyle.css" rel="stylesheet">
+    
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -88,7 +90,10 @@
         </div>
     </header>
     <!-- About Section -->
+<div id="card">
+<div class="front">
     <section id="about" class="container content-section text-center">
+
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <form>
@@ -135,25 +140,55 @@
                     </div>
                  -->
                 </form>
+
                 <div id="oldSearchResults">
                 <h2>Previous Search Results</h2>
                     <span id="oldSearchResultsContainer">
                     </span>
                 </div>
+
+
+
             </div>
-        </div>
+      
     </section>
-    <!-- Download Section -->
+      </div>
+        <!-- Download Section -->
+        
+
+<div class="back">
     <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2" id="eventAppend">
+        
+            <div class="download-section">
+                <div class="container" id="eventappend-container">
                     <h2>EVENTS</h2>
-                    <p>Here are the events in your area</p>
+                     <p>Here are the events in your area</p>
+                    <a class="page-scroll" href="#about"><button type="button" class="btn btn-default" id="backSearch">Back to Search</button></a>
+                    <div id="eventAppend" style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:500px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+                        <div id="eventAppend-slides" data-u="slides"></div>
+                        <!-- Thumbnail Navigator -->
+                        <div data-u="thumbnavigator" class="jssort01-99-66" style="position:absolute;left:0px;top:0px;width:240px;height:500px;">
+                            <!-- Thumbnail Item Skin Begin -->
+                            <div data-u="slides" style="cursor: default;">
+                                <div data-u="prototype" class="p">
+                                    <div class="w">
+                                        <div data-u="thumbnailtemplate" class="t"></div>
+                                    </div>
+                                    <div class="c"></div>
+                                </div>
+                            </div>
+                            <!-- Thumbnail Item Skin End -->
+                        </div>
+                        <!-- Arrow Navigator -->
+                        <span data-u="arrowleft" class="jssora05l" style="top:0px;left:248px;width:40px;height:40px;" data-autocenter="2"></span>
+                        <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div>  
     </section>
+    </div>  
+</div>
+
     <!-- Map Section -->
     <div class="container content-section" id="hotels">
         <div id="map">MAP</div>
@@ -258,6 +293,8 @@
     <script type="text/javascript">$(function(){$('.ch-item').bind('touchstart', function(e){});});</script>
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    <script src="js/jquery.flip.js"></script>
+    <script src="js/jssor.slider-24.1.0.min.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -12,6 +12,16 @@ html {
 
 
 
+#card{
+    height:725px!important;
+    background-color:black;
+}
+.front, .back {
+    background-color:black;
+}
+.jssort01-99-66 {
+    top: 0!important;
+}
 /*body * { border: 1px solid red; }
  add a border to all other elements on the page */
 
@@ -201,8 +211,8 @@ a:hover {
 /*vvvv Classes for the returned JSON vvvv*/
 
 .resultsImage {
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    
 }
 
 .resultsDescription {
@@ -535,12 +545,15 @@ i:hover {
 }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 0px;
+}
+
+#download {
+    height: 725px;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) center center no-repeat #000;
     -webkit-background-size: cover;
@@ -554,12 +567,17 @@ i:hover {
     height: 200px;
 }
 
+#backSearch {
+    margin-bottom: 10px;
+}
+
 @media (min-width:767px) {
     .content-section {
         /*padding-top: 250px*/
     }
+
     .download-section {
-        padding: 100px 0
+        /*padding: 100px 0*/
     }
     #map {
         height: 400px;
