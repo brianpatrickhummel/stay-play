@@ -10,10 +10,11 @@ html {
     width: 100%;
 }
 
-
-
+.hotels {
+    margin-top: 200px;
+}
 #card{
-    height:725px!important;
+    height:900px!important;
     background-color:black;
 }
 .front, .back {
@@ -549,7 +550,7 @@ i:hover {
 }
 
 #download {
-    height: 725px;
+    height: 900px;
 }
 
 .download-section {
