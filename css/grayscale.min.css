@@ -669,6 +669,17 @@ img::-moz-selection {
     overflow:hidden;
 }
 
+/*API call formatting*/
+.eventText {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 90%;
+}
+
+.resultsTicket {
+    font-size: 250%;
+}
+
 /*---------------Copyright-----------------------*/
 
 .copyright {
